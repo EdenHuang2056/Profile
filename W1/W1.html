@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>CSS3</title>
+    <link href= "style.css" rel="stylesheet" type="text/css" media="all"/>
+    <style>
+        .head{
+            font-size:20px;padding:10px;
+        }
+        .body{
+            margin:0px;
+        }
+        nav{
+            display:flex;justify-content:space-between;
+        }
+        .item{
+            font-size:20px;padding:5px;margin:10px;
+        }
+        .icon{
+            display:none;flex:none;
+        }
+        .icon img{
+            width:35px;
+        }
+        .box{
+           height:300px;background-color: skyblue;margin:0px;padding:0px;
+        }
+        .text{
+            font-size:20px;text-align:center;line-height:300px;
+        }
+        main{
+            display:flex;flex-wrap:wrap;
+            justify-content:center;
+            max-width:1200px;
+            margin:auto;
+        }
+        .pic{
+            flex:auto;margin:12px;width:270px;
+            text-align:center;  
+        }
+        .pic img{
+            width:90%; 
+        }
+        @media(max-width:1200px){
+            .pic{
+                width:45%;display:block; 
+            }  
+        }
+        @media(max-width:600px){
+            .pic{
+                width:90%;
+            }
+            .item{
+                display:none;            
+                }
+            .icon{
+                display:block;justify-content:center;
+            }
+        }
+    </style>
+</head>
+<body class="body">
+	<nav>
+        <div class="head">My Website</div>
+        <div>
+            <span class="item">Item 1</span>
+		    <span class="item">Item 2</span>
+		    <span class="item">Item 3</span>
+            <span class="item">Item 4</span>
+        </div>
+        <div class="icon">
+            <img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-256.png" />
+        </div>
+	</nav>
+    <div class="box">
+        <div class="text">
+            Welcome to MyHome
+        </div>
+    </div>
+    <main>   
+        <div class="pic" >  <img src="1.jpg" width=270px margin=10px/>
+        <br/>Pic 1</div>
+        <div class="pic" >  <img src="2.jpg" width=270px margin=10px/>
+        <br/>Pic 2</div>
+        <div class="pic" >  <img src="3.jpg" width=270px margin=10px/>
+        <br/>Pic 3</div>
+        <div class="pic" >  <img src="4.jpg" width=270px margin=10px/>
+        <br/>Pic 4</div>
+        <div class="pic" >  <img src="5.jpg" width=270px margin=10px/>
+        <br/>Pic 5</div>
+        <div class="pic" >  <img src="6.jpg" width=270px margin=10px/>
+        <br/>Pic 6</div>
+        <div class="pic" >  <img src="7.jpg" width=270px margin=10px/>
+        <br/>Pic 7</div>
+        <div class="pic" >  <img src="8.jpg" width=270px margin=10px/>
+        <br/>Pic 8</div>
+        </main>
+</body>
+</html>
