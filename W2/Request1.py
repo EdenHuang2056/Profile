@@ -1,0 +1,15 @@
+
+
+def main():
+    def calculate(min, max):
+        sum = 0
+        for i in range(min, max+1):
+            sum += i
+        print(int(sum))
+
+    calculate(1, 3)
+    calculate(4, 8)
+
+
+if __name__ == '__main__':
+    main()
