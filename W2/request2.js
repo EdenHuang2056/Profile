@@ -2,7 +2,7 @@ function avg(data){
     var Sum = 0;
     var Avg = 0;
     var Peo = 0;
-    var PeoList =data.employees;
+    var PeoList = data.employees;
     for(i=0; i<data.count; i++){
         Peo = Peo + 1
     };
@@ -25,10 +25,10 @@ avg({
 {
 "name":"Bob",
 "salary":60000
-}
+},
 {
 "name":"Jenny",
 "salary":50000
 }
 ] 
-})
+});
