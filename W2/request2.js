@@ -12,7 +12,7 @@ function avg(data){
     }
     j+=1;
     Avg = Sum / Peo;
-    document.write(Avg)
+    console.log(Avg)
 }
 
 avg({
