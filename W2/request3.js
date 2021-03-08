@@ -1,8 +1,8 @@
 function maxProduct(nums){
     var each = 0;
     var sum = [];
-    for(i=0; i<num.length; i++){
-        for(j=i+1; j<num.length; j++){
+    for(i=0; i<nums.length; i++){
+        for(j=i+1; j<nums.length; j++){
             each=nums[i]*nums[j];
             sum.push(each)
         }
